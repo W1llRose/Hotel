@@ -10,43 +10,54 @@
 <body>
   <header class="header">
     <div class="container">
-      <img src="img/logo.jpg" alt="Lagoona" class="header-logo">
-      <a href="+74953225448" class="header-contact">+7 495 322-54-48</a>
-      <a href="#" class="log-in">Личный кабинет</a>
-      <nav class="header-nav">
-        <ul class="header-list">
-          <il class="header-list-item">
-            <a href="#" class="header-link">О&nbsp;нас</a>
-          </il>
-          <il class="header-list-item">
-            <a href="#" class="header-link">Услуги</a>
-          </il>
-          <il class="header-list-item">
-            <a href="#" class="header-link">Преимущества</a>
-          </il>
-          <il class="header-list-item">
-            <a href="#" class="header-link">Размещение</a>
-          </il>
-          <il class="header-list-item">
-            <a href="#" class="header-link">Блог</a>
-          </il>
-          <il class="header-list-item">
-            <a href="#" class="header-link">Контакты</a>
-          </il>
-        </ul>
-        <ul class="header-btn-list">
-          <li class="header-btn-link">
-            <button class="btn header-btn">Хочу тур</button>
-          </li>
-          <li class="header-btn-link">
-            <button class="btn header-btn">Обратный звонок</button>
-          </li>
-        </ul>
-      </nav>
+      <section class="header-section-logo">
+        <img src="img/logo.jpg" alt="Lagoona" class="header-logo" onclick="location.href='index.html'"
+          style="cursor: pointer;">
+        <a href="tel:+74953225448" class="header-contact">+7 495 322-54-48</a>
+      </section>
+      <section class="header-section-log-in">
+        <a href="#" class="log-in">Личный кабинет</a>
+      </section>
+      <section class="header-section-nav">
+        <nav class="header-nav">
+          <article class="header-list-article">
+            <ul class="header-list">
+              <il class="header-list-item">
+                <a href="#about-us" class="header-link">О&nbsp;нас</a>
+              </il>
+              <il class="header-list-item">
+                <a href="#services" class="header-link">Услуги</a>
+              </il>
+              <il class="header-list-item">
+                <a href="#advantages" class="header-link">Преимущества</a>
+              </il>
+              <il class="header-list-item">
+                <a href="#placements" class="header-link">Размещение</a>
+              </il>
+              <il class="header-list-item">
+                <a href="#" class="header-link">Блог</a>
+              </il>
+              <il class="header-list-item">
+                <a href="#" class="header-link">Контакты</a>
+              </il>
+            </ul>
+          </article>
+          <article class="header-btn-article">
+            <ul class="header-btn-list">
+              <li class="header-btn-link">
+                <button class="btn header-btn">Хочу тур</button>
+              </li>
+              <li class="header-btn-link">
+                <button class="btn header-btn">Обратный звонок</button>
+              </li>
+            </ul>
+          </article>
+        </nav>
+      </section>
     </div>
   </header>
   <main class="mian">
-    <section class="main-ofert">
+    <section id="main-ofert" class="main-ofert">
       <div class="container">
         <h2 class="main-ofert-title">Спецпредложения</h2>
         <ul class="main-ofert-list">
@@ -68,7 +79,7 @@
         </ul>
       </div>
     </section>
-    <section class="about-us">
+    <section id="about-us" class="about-us">
       <div class="container">
         <h1 class="about-us-title">О нас</h1>
         <p class="about-us-descr">Идейные соображения высшего порядка, а&nbsp;также сложившаяся структура организации
@@ -80,7 +91,7 @@
           и&nbsp;административных условий.</p>
       </div>
     </section>
-    <section class="services">
+    <section id="services" class="services">
       <div class="container">
         <h2 class="services-title">Услуги</h2>
         <ul class="services-list">
@@ -118,7 +129,7 @@
         </ul>
       </div>
     </section>
-    <section class="advantages">
+    <section id="advantages" class="advantages">
       <div class="container">
         <h2 class="advantages-title">Преимущества</h2>
         <ul class="advantages-list">
@@ -161,7 +172,7 @@
         </ul>
       </div>
     </section>
-    <section class="placements">
+    <section id="placements" class="placements">
       <div class="container">
         <h2 class="placements-title">Размещение</h2>
         <ul class="placements-list">
